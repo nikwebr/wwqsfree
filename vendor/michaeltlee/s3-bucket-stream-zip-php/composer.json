@@ -1,0 +1,24 @@
+{
+  "name": "michaeltlee/s3-bucket-stream-zip-php",
+  "homepage": "https://github.com/michaeltlee/s3-bucket-stream-zip-php",
+  "description": "PHP library to efficiently stream contents from an AWS S3 bucket or folder as a zip file",
+  "keywords": ["amazon","aws","s3","stream","zip","php","download"],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/michaeltlee/s3-bucket-stream-zip-php/issues"
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "maennchen/zipstream-php": "0.3.*",
+    "aws/aws-sdk-php": "3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MTL\\S3BucketStreamZip\\": "src/"
+    }
+  }
+}
